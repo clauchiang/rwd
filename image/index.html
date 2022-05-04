@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cute cates</title>
+    <style>
+        * {
+            margin: 0;
+            font-family: Verdana;
+            box-sizing: border-box;
+        }
+
+        section>* {
+            border: 1px solid lightgrey;
+        }
+
+        .main {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            background-image: url(./image/16pic_5797770_b.jpg);
+        
+        }
+
+        .top {
+            width: 100%;
+            padding: 200px 0px;
+            background-image: url(./image/cat-g004c28654_1920.png);
+            background-color: whitesmoke;
+            background-size: cover;
+            color: whitesmoke;
+            text-align: center;
+            font-size: 50px;
+            text-shadow: 2px 2px lightslategray;
+        }
+
+        section {
+            margin: 50px;
+            display: flex;
+        }
+
+
+        section>div {
+            margin: 0 10px;
+            flex-basis: calc(100% / 3);
+            color: whitesmoke;
+            text-align: center;
+            opacity: 0.5;
+        }
+
+        section>p {
+            padding: 5px;
+        }
+
+        section>div:hover {
+            flex-basis: calc(120% / 3);
+            box-shadow: 10px 5px rgb(238, 235, 235, 0.5);
+            cursor: pointer;
+            opacity: 1;
+        }
+
+        section>div:active {
+            flex-basis: calc(80% / 3);
+            background-color: grey;
+        }
+
+        footer{
+            min-height: 50vh;
+        }
+
+        @media (max-width:576px) {
+            .main {
+                background-image: url(./image/the-quartet-continuous-2524855_960_720.jpg);
+
+            }
+
+            section {
+                display: block;
+            }
+
+            section>div {
+                opacity: 0.5;
+                color: black;
+                margin-bottom: 15px;
+            }
+
+            section>p {
+                padding: 5px;
+            }
+
+            section>div:active {
+                margin: auto;
+                width: 80%;
+            }
+        }
+
+        @media (max-width:991px) and (min-width:577px) {
+            .main {
+                background-image: url(./image/flowers-3728560_960_720.png);
+            }
+
+            section {
+                display: block;
+            }
+
+            section>div {
+                opacity: 0.5;
+                color: black;
+                margin-bottom: 15px;
+            }
+
+            section>div:active {
+                margin: auto;
+                width: 80%;
+            }
+
+        }
+    </style>
+</head>
+
+<body class="main">
+
+    <header class="top">
+        Cute Cats
+    </header>
+
+    <section>
+
+        <div>
+            <img src="./image/cat-2068462_960_720.jpg" alt="cat1" width="100%">
+
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores maxime nisi eaque nobis reiciendis
+                ipsum culpa, dolore delectus sapiente sequi assumenda modi numquam accusamus impedit sed vero quia
+                laudantium quo!
+            </p>
+        </div>
+
+        <div>
+            <img src="./image/cat-gc3031d561_1920.jpg" alt="cat2" width="100%">
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis illo corporis corrupti fuga
+                nobis, unde adipisci dolorem. Dicta tempora, odit qui praesentium, eveniet magnam adipisci est repellat
+                voluptatem dolorum id.
+            </p>
+        </div>
+
+        <div>
+            <img src="./image/kitten-4611189_960_720.jpg" alt="cat3" width="100%">
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque expedita, veniam soluta dolorem, nihil
+                corporis aspernatur eum voluptatem consequuntur officia laboriosam sequi perspiciatis dignissimos
+                itaque, magnam quisquam sed perferendis natus!
+            </p>
+        </div>
+
+    </section>
+
+    <footer>
+
+    </footer>
+
+    
+
+
+</body>
+
+</html>
